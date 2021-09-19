@@ -1,4 +1,4 @@
-defmodule Module2Exercises do
+defmodule Module1Exercises do
 
   #lenght
   def get_length(list) when is_list(list) do
