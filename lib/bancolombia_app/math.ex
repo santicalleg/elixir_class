@@ -1,4 +1,4 @@
-defmodule Math do
+defmodule BancolombiaApp.Math do
 
   def sum(a, b) do
     a + b

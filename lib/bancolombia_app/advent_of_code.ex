@@ -1,4 +1,4 @@
-defmodule AdventOfCode do
+defmodule BancolombiaApp.AdventOfCode do
   def get_floor(instructions) do
     instructions
     |> String.split("")

@@ -1,4 +1,4 @@
-defmodule Greeting do
+defmodule BancolombiaApp.Greeting do
 
   def hello(), do: "#{phrase()} anon"
   def hello(name), do: "Hello " <> name

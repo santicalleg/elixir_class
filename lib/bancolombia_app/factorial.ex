@@ -1,4 +1,4 @@
-defmodule Factorial do
+defmodule BancolombiaApp.Factorial do
 
   def of(0), do: 1
   def of(n), do: n * of(n - 1)

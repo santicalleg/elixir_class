@@ -1,4 +1,4 @@
-defmodule Parallel do
+defmodule BancolombiaApp.Parallel do
 
   def pmap(list, fun) do
     list

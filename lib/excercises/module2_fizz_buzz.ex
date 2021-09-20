@@ -1,8 +1,9 @@
 defmodule Module2FizzBuzz do
 
   def fizz_buzz(n) when is_integer(n) and n > 0 do
-    list = 1..n |> Enum.to_list()
-    fizz_buzz(list, [])
+    1..n
+    |> Enum.to_list()
+    |> fizz_buzz([])
   end
   def fizz_buzz(_), do: {:error, "Bad request"}
 
