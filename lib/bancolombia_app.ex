@@ -1,4 +1,5 @@
 defmodule BancolombiaApp do
+  use Application
   @moduledoc """
   Documentation for `BancolombiaApp`.
   """
@@ -12,7 +13,11 @@ defmodule BancolombiaApp do
       :world
 
   """
-  def hello do
-    :world
+  # def hello do
+  #   :world
+  # end
+
+  def start(_type, _args) do
+
   end
 end

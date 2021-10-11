@@ -6,7 +6,7 @@ defmodule BancolombiaApp.Parallel do
   end
 
   def spawn_prcess_my_collection(e, parent, fun) do
-    spawn_link(fn -> send parent, {self(), fun.(e)})
+    spawn_link(fn -> send parent, {self(), fun.(e)} end)
   end
 
 end
