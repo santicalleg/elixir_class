@@ -94,6 +94,14 @@ pingPid = :global.whereis_name(:ping_server) //descubrir el proceso generado en 
 send(pingPid, {:pong, pongPid}) //comenzar ping-pong entre nodos
 # ===
 
+GenServer
+
+Llamadas síncronas y asíncronas
+Síncrona: Espera una respuesta cuando se mande a ejecutar la llamada
+Asíncrona: 
+
+# ===
+
 table_ref = :ets.new(:todo_registry, [:set, :protected])
 :ets.insert table_ref, {1, "uno"}
 :ets.insert table_ref, {2, "dos"}

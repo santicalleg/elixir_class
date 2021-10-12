@@ -1,4 +1,4 @@
-defmodule GenericServer do
+defmodule BancolombiaApp.GenericServer do
 
   def start(module, init) do
     #se usa para que no termine el proceso asociado al padre anidado (self() o la iex)
