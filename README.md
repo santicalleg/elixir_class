@@ -24,6 +24,8 @@ c "path/project/module"
 c "lib/bancolombia_app/fibonacci.ex"
 
 # ===
+Visualizar los procesos
+:observer.start
 
 Crear un proceso
 pid = spawn(fn -> 1 + 1 end)
