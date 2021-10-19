@@ -100,7 +100,7 @@ GenServer
 
 Llamadas síncronas y asíncronas
 Síncrona: Espera una respuesta cuando se mande a ejecutar la llamada
-Asíncrona: 
+Asíncrona: Responde sin dejar mensaje
 
 # ===
 
